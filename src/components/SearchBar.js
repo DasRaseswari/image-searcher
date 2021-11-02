@@ -9,6 +9,10 @@ class SearchBar extends React.Component {
 		this.props.onSubmit(this.state.term);
 	};
 
+	componentDidMount() {
+		this.props.onSubmit("forest");
+	}
+
 	render() {
 		return (
 			<div className="ui segment">
@@ -19,6 +23,7 @@ class SearchBar extends React.Component {
 							type="text"
 							value={this.state.term}
 							onChange={(e) => this.setState({ term: e.target.value })}
+							placeholder="Please enter keyword here"
 						/>
 					</div>
 				</form>
