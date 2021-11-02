@@ -4,8 +4,6 @@ React app to search images using Unsplash API.
 
 ![image-searcher](public/image-searcher.png)
 
-In the project directory, you can run:
-
 ## Tools Used
 
 - react-js [[Ref]](https://reactjs.org/docs/getting-started.html)
