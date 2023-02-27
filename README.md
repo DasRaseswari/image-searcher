@@ -2,7 +2,7 @@
 
 React app to search images using Unsplash API.
 
-![image-searcher](public/image-searcher.png)
+![image-searcher](./public/image-searcher.png)
 
 ## Tools Used
 
